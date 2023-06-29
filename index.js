@@ -31,12 +31,6 @@ function newItem(url, left, bottom){
     })
 }
 
-let horizon = window.innerHeight / 1.75
-let heightOfSky = window.innerHeight-horizon
-let heightOfGrass = horizon
-
-tile('assets/sky.png', 0, horizon, window.innerWidth/100, heightOfSky/100)
-tile('assets/grass.png', 0, 0, window.innerWidth/100, heightOfGrass/100)
 
 
 newImage('assets/green-character.gif', 100, 100)
